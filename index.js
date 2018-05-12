@@ -3,7 +3,7 @@ var katzDeli = [];
 function takeANumber(katzDeliLine, newName) {
   katzDeliLine.push(newName)
   let counter = katzDeliLine.length + 1;
-  return 'Welcome, ' + newName + '. You are number ' + (katzDeli[newName] + 1) + ' in line.'
+  return 'Welcome, ' + newName + '. You are number ' + counter + ' in line.'
 }
 
 function nowServing(katzDeliLine) {
